@@ -22,7 +22,7 @@ class PlayerData extends React.Component {
 
 
     render() {
-        console.log(this.state.players)
+        // console.log(this.state.players)
         return (
             <div className="App">
                 {this.state.players.map(player => {
